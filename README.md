@@ -1,4 +1,4 @@
-# thermal-image-converter-UAV
+# thermal-image-converter-theRmalUAV
 
 This repository is used for processing radiometric `.JPG` files into `.tif`
 files, while correcting for atmospheric and flight conditions. It simply provides
@@ -7,12 +7,19 @@ to process UAV-based thermal images.
 
 ## Installation
 
-Run `installer.R` to install the reqiured packages.
+Clone the repository:
+
+    ```sh
+    git clone https://github.com/philipptandler/thermal-image-converter-theRmalUAV.git
+    cd thermal-image-converter-theRmalUAV
+    ```
+
+Run `installer.R` to install the required packages.
 
 ## Usage
 
 Images can be converted either as individual files, or as a complete orthomosaic.
-In R, load the library (`library(theRmalUAV)`), and use `tuav_cameras()` along with 
+In R, load the library `library(theRmalUAV)`, and use `tuav_cameras()` along with 
 the online documentation of `theRmalUAV` to understand requirements of the used sensor.
 
 ### Converting individual files
@@ -27,7 +34,7 @@ You might need to install the `terra` package.
 
 ### Output
 
-The resulting `.tif` file(s) are in centi kelvin (cK, 27315 cK = 0°C).
+The resulting `.tif` file(s) are in centi Kelvin (cK, 27315 cK = 0°C).
 
 ## Credits
 
