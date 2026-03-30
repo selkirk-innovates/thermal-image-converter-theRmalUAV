@@ -50,3 +50,7 @@ This script only facilitates the application. Credits go to the developers of th
 `theRmalUAV` package [theRmalUAV](https://christophemetsu.github.io/theRmalUAV/index.html)
 
 
+
+## Authorship:
+Philipp Tandler
+for questions, reach out to philipp.tandler@protonmail.ch
